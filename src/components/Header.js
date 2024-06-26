@@ -1,13 +1,19 @@
-import React from 'react';
-import '../styles.css';
+import React from "react";
+import "../styles.css";
 
-export default function Header () {
-    return (
-
-        <div className='header'>
-            <img className='logo' src='/images/headerImage.png' alt="product_image"/>
-            <p className='app-subtitle'> Lets begin shopping</p>
-        </div>
-
-    );
+export default function Header() {
+  return (
+    <div>
+      <img
+        className="logo"
+        src="/images/headerImage4.JFIF"
+        alt="product_image"
+      />
+      <img
+        className="logo"
+        src="/images/headerImage5.JFIF"
+        alt="product_image"
+      />
+    </div>
+  );
 }

@@ -1,19 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../styles.css";
 import Product from "./Product";
 
-export default function ProductsGrid() {
-  const [products, setProducts] = useState([]); // products is a state variable and setProducts is function which sets the state
+
+export default function ProductsGrid({ products, addProductToCart }) {
   const [search, setSearch] = useState("");
   const [price, setprice] = useState("");
   const [rating, setRating] = useState("");
-
-  useEffect(() => {
-    fetch("products.json") // async call
-      .then((response) => response.json())
-      .then((data) => setProducts(data));
-  }, []); // useEffect actually sets the state of our product/used to load the data or file. When do you want reparse this effect.
-
+ 
   const searchHandler = (e) => setSearch(e.target.value);
   const priceHandler = (e) => setprice(e.target.value);
   const ratingHandler = (e) => setRating(e.target.value);
@@ -40,6 +34,7 @@ export default function ProductsGrid() {
     return matchesPrice(productPrice, price) && matchesRate && matchesSearch;
   });
 
+ 
   return (
     <div>
       <input
@@ -82,8 +77,12 @@ export default function ProductsGrid() {
         </div>
       </div>
       <div className="products-grid">
-        {filteredProducts.map((prod) => (
-          <Product product={prod} key={prod.id} />
+        {filteredProducts.map((product) => (
+          <Product
+            product={product}
+            key={product.id}
+            addProductToCart={addProductToCart}
+          />
         ))}
       </div>
     </div>

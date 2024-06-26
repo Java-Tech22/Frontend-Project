@@ -82,8 +82,6 @@ body {
   transform: scale(1.03);
 }
 
-
-
 .product img {
   width: 250px;
   height: auto;
@@ -122,6 +120,17 @@ body {
 .product-price {
   font-size: 1.2rem;
   margin-right: 10px;
+}
+
+.added-to-cart {
+  background-color: green; /* Change to your desired color */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
 
 /* Watchlist Button Styles */
@@ -167,12 +176,23 @@ body {
   margin: 25px 0;
 }
 
-.logo {
+/* .logo {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
   display: block;
-  height: 50%;
+  height: 100%;
+} */
+
+.logo{
+  display: none;
+  width: 40%;
+  padding: 10 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 56px;
+  float: left;
 }
 
 .app-subtitle {
