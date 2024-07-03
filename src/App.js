@@ -14,6 +14,7 @@ function App() {
 
   const addProductToCart = (product) => {
     setCart((prevCart) => [...prevCart, product]);
+    console.log("Add to cart");
   };
 
   useEffect(() => {
