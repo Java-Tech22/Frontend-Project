@@ -1,0 +1,117 @@
+[
+
+{
+    "id":1,
+    "title": "Long Top",
+    "image":"img1.png",
+    "description": "Good Quality Rayon Fabric",
+    "price" :"$10",
+    "rating":4
+},
+
+{
+    "id":2,
+    "title": "Crop Top",
+    "image":"img2.png",
+    "description": "",
+    "price" :"$15",
+    "rating":2
+},
+{
+    "id":3,
+    "title": "Kurti",
+    "image":"img3.png",
+    "description": "Good Quality fabric",
+    "price" :"$20",
+    "rating":3
+},
+{
+    "id":4,
+    "title": "Women Top",
+    "image":"img4.png",
+    "description": "Good Quality fabric",
+    "price" :"$9",
+    "rating":4
+},
+{
+    "id":5,
+    "title": "blouse",
+    "image":"img5.png",
+    "description": "Good Quality fabric",
+    "price" :"$10",
+    "rating":2
+},
+{
+    "id":6,
+    "title": "Women Top",
+    "image":"img6.png",
+    "description": "Good Quality fabric",
+    "price" :"$25",
+    "rating":4
+},
+{
+    "id":7,
+    "title": "Women Top",
+    "image":"img7.png",
+    "description": "Good Quality fabric",
+    "price" :"$30",
+    "rating":4
+},
+{
+    "id":8,
+    "title": "Women Top",
+    "image":"img8.png",
+    "description": "Good Quality fabric",
+    "price" :"$12",
+    "rating":4
+},
+{
+    "id":9,
+    "title": "Women Top",
+    "image":"img9.png",
+    "description": "Good Quality fabric",
+    "price" :"$22",
+    "rating":4
+},
+{
+    "id":10,
+    "title": "Women Top",
+    "image":"img10.png",
+    "description": "Good Quality fabric",
+    "price" :"$18",
+    "rating":4
+},
+{
+    "id":11,
+    "title": "Women Top",
+    "image":"img11.png",
+    "description": "Good Quality fabric",
+    "price" :"$24",
+    "rating":4
+},
+{
+    "id":12,
+    "title": "Women Top",
+    "image":"img12.png",
+    "description": "Good Quality fabric",
+    "price" :"$26",
+    "rating":4
+},
+{
+    "id":13,
+    "title": "Women Top",
+    "image":"img13.png",
+    "description": "Good Quality fabric",
+    "price" :"$19",
+    "rating":1
+},
+{
+    "id":14,
+    "title": "Women Top",
+    "image":"img14.png",
+    "description": "Good Quality fabric",
+    "price" :"$5",
+    "rating":2
+}
+
+]
